@@ -1,0 +1,20 @@
+# For apps, use the default set
+include: package:lint/analysis_options.yaml
+
+# Exclude auto-generated files from dart analysis
+analyzer:
+    exclude:
+        - "**.freezed.dart"
+        - "**.g.dart"
+
+# A list of all rules can be found at https://dart-lang.github.io/linter/lints/options/options.html
+linter:
+    rules:
+        # Util classes are awesome
+        avoid_classes_with_only_static_members: false
+
+        # Make constructors the first thing in every class
+        sort_constructors_first: true
+
+        # Choose wisely
+        prefer_single_quotes: true
