@@ -39,8 +39,3 @@ lib/generated_plugin_registrant.dart
 # Directory created by dartdoc
 # If you don't generate documentation locally you can remove this line.
 doc/api/
-
-okhome_flutter/ios/Flutter/.last_build_id
-
-okhome_flutter/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-okhome_flutter_v2/windows
